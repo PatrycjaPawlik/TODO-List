@@ -22,6 +22,14 @@
     border: none;
 }
 
+@media(max-width: 767px) {
+    .form__button {
+        display:flex;
+        flex-basis: 100%;
+        padding: 50px;
+    }
+}
+
 .form__button:hover {
     cursor: pointer;
     background-color: rgb(3, 151, 151);
