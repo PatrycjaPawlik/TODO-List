@@ -15,7 +15,7 @@
     word-break: break-word;
 }
 
-.task__content--done {
+.tasks__content--done {
     text-decoration: line-through;
 }
 
