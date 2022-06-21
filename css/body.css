@@ -1,0 +1,12 @@
+.body {
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #eee;
+    font-family: "Lato", sans-serif;
+}
+
+.body__header {
+    font-size: 30px;
+    margin: 0;
+}

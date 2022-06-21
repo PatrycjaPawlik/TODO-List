@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+@media(max-width:767px) {
+    .form__input {
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+}
+
+.form__button {
+    color: white;
+    background-color: teal;
+    border: none;
+}
+
+.form__button:hover {
+    cursor: pointer;
+    background-color: rgb(3, 151, 151);
+}
